@@ -26,7 +26,7 @@ public class WechatController {
 	}
 
 	@RequestMapping("/login")
-	public Jscode2SessionResp login(String code){
+	public Jscode2SessionResp loginMiniProgram(String code){
 		Jscode2SessionResp jscode2SessionResp;
 		try {
 			jscode2SessionResp = GeekLazyWechatUtils.jscode2session(code,Jscode2SessionResp.class);
