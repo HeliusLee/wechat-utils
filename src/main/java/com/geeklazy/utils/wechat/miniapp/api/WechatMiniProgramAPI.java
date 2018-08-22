@@ -1,4 +1,4 @@
-package com.geeklazy.utils.wechat.miniprogram.api;
+package com.geeklazy.utils.wechat.miniapp.api;
 
 /**
  * @Author heliuslee@live.cn
@@ -6,7 +6,7 @@ package com.geeklazy.utils.wechat.miniprogram.api;
  * @Description
  */
 public enum WechatMiniProgramAPI {
-	JSCODE2SESSION("jscode2session", "https://api.weixin.qq.com/sns/jscode2session"),
+	JSCODE_TO_SESSION("jscode2session", "https://api.weixin.qq.com/sns/jscode2session"),
 	;
 	private String name;
 	private String url;

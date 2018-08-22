@@ -1,7 +1,5 @@
 package com.geeklazy.utils.wechat.commons;
 
-import com.geeklazy.utils.wechat.miniprogram.api.WechatMiniProgramAPI;
-
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;

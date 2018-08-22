@@ -1,4 +1,4 @@
-package com.geeklazy.utils.wechat.miniprogram.pojo;
+package com.geeklazy.utils.wechat.miniapp.pojo;
 
 /**
  * @Author heliuslee@live.cn
